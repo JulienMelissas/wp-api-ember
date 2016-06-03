@@ -4,6 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'wp-api-ember',
     environment: environment,
+    wordpressHost: 'http://wp-api.dev',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
