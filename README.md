@@ -2,6 +2,9 @@
 
 A simple Ember application that grabs the 10 latest posts from the WordPress API.
 
+## Local WordPress
+Keep in mind, this app is configured to use a local development site (with the V2 REST API plugin installed and activated) at `http://wp-api.dev`. If you're interested in changing that or testing it with another URL, you can edit [this line](https://github.com/JulienMelissas/wp-api-ember/blob/master/config/environment.js#L7).
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
